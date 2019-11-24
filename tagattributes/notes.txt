@@ -1,0 +1,2 @@
+This shows how to link a css document with your html documents.
+You can also see link tags and post pictures in this tutorial

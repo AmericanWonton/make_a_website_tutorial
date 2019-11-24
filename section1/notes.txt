@@ -1,0 +1,6 @@
+You have an emmet plug in that has things you can type that will
+automatically fill in stuff. Go to taht Emmet site to see what they are...
+here's an example:
+ul>li*5 makes an unordered list with 5 list child elements.
+
+<!--This is an example comment.-->
