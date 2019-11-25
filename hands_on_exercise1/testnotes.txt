@@ -1,0 +1,2 @@
+Create a folder for css to link to. 
+Also, create a picture that when you click it, it goes to another link.

@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.happiness{
+    color:blue;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.sadness{
+    color:red;
+    font-size: 40px;
+    margin-left: 45px;
+}

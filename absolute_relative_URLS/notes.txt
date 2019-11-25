@@ -2,3 +2,7 @@ to access a file in a folder, just do the following
 <img src=FOLDERNAME/image>
 
 Relative references are 'relative to where you are in the index, get a photo.
+
+Absolute references are references you can find on the world wide web.
+So you need to right click and image and click copy image address, then past it into the 
+imgage tag.
