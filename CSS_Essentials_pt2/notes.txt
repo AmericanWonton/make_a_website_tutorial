@@ -1,5 +1,7 @@
 This is a lesson on display propertys...which basically sets how an element is
 displayed on a web page. There's also padding, border, and margin too.
+We also learn the 'Box Sizing' tool as well.
+
 Divs, as a 'block level element", are vertical, not horizontal.
 Some are 'in line' level elements, which are usually horizontal.
 For example: display: none; does not display the element.
@@ -12,3 +14,11 @@ Margin gives it some space from other content...
 Also, if you give your element a class, (like dogone one over image),
 the class takes precedent over any element level declarations,
 (for instance, dog one has a dashed outline instead of groove).
+
+The web is nothing but a 'box model'. Everything is set up as boxes.
+Just inspect anything on any site and you can see the 'content, padding, boder, margin' model.
+
+Box sizing: border box. To make sense of this, the box goes on the 'outside'.
+What it does is constrain images to a certain width that is defined.
+This is essential for an orderly website. It will decrease the size of the content
+if more stuff pops up on the page.
