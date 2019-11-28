@@ -1,0 +1,14 @@
+This is a lesson on display propertys...which basically sets how an element is
+displayed on a web page. There's also padding, border, and margin too.
+Divs, as a 'block level element", are vertical, not horizontal.
+Some are 'in line' level elements, which are usually horizontal.
+For example: display: none; does not display the element.
+display: block; just displays a block
+display: inline-block; Just displays them as a block.
+
+Padding shoots your content outwards...
+Margin gives it some space from other content...
+
+Also, if you give your element a class, (like dogone one over image),
+the class takes precedent over any element level declarations,
+(for instance, dog one has a dashed outline instead of groove).
