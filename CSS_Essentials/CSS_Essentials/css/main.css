@@ -1,0 +1,25 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 45%;
+    background-image: url("../dog_eyes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img {
+    border: 10px groove orangered;
+    border-radius: 45%;
+}
+.onedog{
+    border: 10px dashed orangered;
+    border-radius: 45%;
+}
+.twodog{
+    border: 10px groove green;
+    border-radius: 45%;
+}
+.threedog{
+    border: 10px double pink;
+    border-radius: 45%;
+}

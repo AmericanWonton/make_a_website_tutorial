@@ -1,0 +1,3 @@
+If you remove the 'width' from div property, it stretches to the length of the browser.
+Background repeat makes sure the image fits the circle-ed div.
+You can 'repeating image' witha  big image and NO repeating selected.
