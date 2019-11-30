@@ -1,0 +1,9 @@
+What this does is it targets selectors INSIDE of a selector. So in our case, it tarrgets all of the
+<p>'s inside of the <div>'s.
+
+div > p selects all the IMMEDIATE childen in the div,(the last one doesne't get selected cuz it's in a 
+section.).
+
+div ~ p selects all the SIBLINGS of the div. So all the <p>'s would be selected outside of the div.
+
+div + p is the IMMEDIATE sibling only.

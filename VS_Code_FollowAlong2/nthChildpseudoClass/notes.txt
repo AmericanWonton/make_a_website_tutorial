@@ -1,0 +1,15 @@
+These psuedo classes add some interactivity to our elements.
+
+WARNING! They need to be in that order or else they won't work properly!
+Order is Link, visited, hover, active,(LVHA)
+
+Psuedo class tag have a colon.
+
+The "Focus" psuedo class is typically used for forms.
+Active is typically used for links
+
+We'll learn about forms later. However,the ids are for targeting that element
+You'll also target ids with javascript. You can also set the variable name for
+server inputs.
+
+Hit tab to change each Focus when testing it out.

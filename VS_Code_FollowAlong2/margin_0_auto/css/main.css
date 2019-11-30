@@ -1,0 +1,20 @@
+* {
+    border: 2px dashed hotpink;
+}
+
+div {
+    height: 200px;
+    border: 5px solid black;
+}
+
+/*
+To center an image, make it behave as a block level element and put the margin to 0,(add auto for phones).
+
+*/
+img {
+    display: block;
+    margin: 0 auto;
+    border: 10px grooved orange;
+    width: 200px;
+    height: 200px;
+}
