@@ -1,0 +1,5 @@
+If you don't provide any CSS format, the 'user agent stylesheet' will be styled
+by diffault by your browser.
+You need to 'css reset' every styleing of the browser so it looks the same
+on all broswers.
+The dude gave you a reset to use.I think you can just google and use a reset.

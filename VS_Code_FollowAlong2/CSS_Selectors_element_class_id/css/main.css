@@ -1,0 +1,29 @@
+.emphasize{
+	color: red;
+}
+
+#promote{
+	color: green;
+}
+
+[contenteditable] {
+	color: red;
+	border: 1px dashed black;
+}
+
+[src] {
+	border: 10px dashed red;
+}
+
+[href]{
+	border: 2px dashed purple;
+}
+
+body {
+	font-size: 36px;
+	text-align: center;
+}
+
+[targer=blank] {
+	color: red;
+}

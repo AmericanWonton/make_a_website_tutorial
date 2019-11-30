@@ -1,0 +1,12 @@
+You can have element selectors,(which select an element to change properties on)
+or you can have double assigned selectors,(whic mess with more than one element.)
+
+Classes always start with a period. IDs are similar to a class, but should 
+ONLY BE USED ONCE!
+
+
+Selectors, selects attributes for certain elements.
+For example, take a look at content editable. This lets the user edit
+content.
+
+Also, target=blank sets only the value it's set to.
