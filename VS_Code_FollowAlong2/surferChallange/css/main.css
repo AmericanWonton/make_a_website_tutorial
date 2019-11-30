@@ -1,0 +1,38 @@
+html {
+    background-color: darkblue;
+}
+
+body {
+    background-color: greenyellow;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+img.surferimg{
+    display: block;
+    margin: 0 auto;
+    border: solid gold;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+h1.blueoof{
+    text-align: left;
+    font-size: 40px;
+    color: blueviolet;
+}
+h2.greyoof{
+    text-align: left;
+    font-size: 40px;
+    color: grey;
+}
+
+p.goodfont{
+    font-size: 20px;
+    font-family: cursive;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,11 @@
+Here's the challange. You need:
+
+A blue background on the entire page.
+A green background, centered, with a dark black border.
+Within that green background, have a circular image of a surfer, with a golden border.
+
+Have one header, blue, labeled header 001. This is on the left of the green border.
+
+Put three seperate paragraphs, centered within the green border.
+
+Have another header within the green border, with another paragraph like above.
