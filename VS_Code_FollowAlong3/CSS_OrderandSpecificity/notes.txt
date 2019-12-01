@@ -1,0 +1,8 @@
+Out of all of these rulesets, the one with the highest 'specifiity' wins. You can look it up in the 
+CSS specifiity calculator,(google it).
+
+Different web browsers use different rendering engines to display CSS specifiity.
+
+Order matters and CSS specifiity matters!
+
+What you can do for the best formatting is start with the 'css reset file' linked above your 'link rel='stylesheet' for your main.css
