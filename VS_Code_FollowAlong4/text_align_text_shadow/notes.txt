@@ -1,0 +1,8 @@
+text align alinns the text
+text shadow puts a shadow on stuff...duh
+
+What's weird about text alingn center is it turns inline objects into block objects and cetners them...just take
+a look at that first div and the image. 
+
+Text shadow takes an offset x ratio and offset y ratio, a blur radius, and color.
+So Text-Shadow example: text-shadow: 5px 5px 20px red;

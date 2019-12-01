@@ -1,0 +1,24 @@
+There's font-style, font-variant, font-weight, font-size, and line-height
+
+Leading = space between lines
+Kerning = space between letters.
+
+There may be some fonts that the User cannot have on some browsers...so we'll need to include some backups.
+
+There's a <family-name> and <generic-name> that goes with fonts.
+Differnent alternative fonts are seperated by a comma.
+
+Deadass, you should use rem or vw instead of px for fonts...it sets a standard font size to scale for ALL browsers.
+maybe don't use vw too much.
+
+If your 'length unit' is 0, you don't have to include a unity like vw/rem.
+
+Font weight is mostly good for bolding words.
+Font style is for making something italic.
+
+Some browsers have 'default settings' for certain elements. For example, on <h1>, google has all headers bolded, so you don't need 
+font-weight added to it. If you'd like to change that, you can have a css-reset or put font-weight: normal.
+
+Font-vairant and text transform are good for doing various special characters.
+
+Line hieght gives you space between lines in an element.

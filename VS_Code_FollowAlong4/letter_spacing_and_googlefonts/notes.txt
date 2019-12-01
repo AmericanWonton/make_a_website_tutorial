@@ -1,0 +1,9 @@
+The color CSS property only applies to text. Just google how to do line spacing, it isn't that hard.
+Google font is a godsend...you can't have people doing searches if you make a bunch of images from photoshop.
+Go to Google Fonts and see what some popular fonts are...they might be on the Users machine already and they won't have to download it.
+
+After you selected a font from Google fonts, they instruct you to put the font link in your html,(ORDER IT BEFORE YOUR CSS.MAIN),
+then also add it to your css.
+
+To see how much traffic your generating with all your fancy files and network calls, open the chrome tab, right click
+and go to inspect, then go over to developer tools, 'network' and do a hard refresh,(google it).
