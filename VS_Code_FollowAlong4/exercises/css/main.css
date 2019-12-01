@@ -1,0 +1,62 @@
+html{
+    font-family: 'Tomorrow', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+h1.shadow{
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-shadow: 10px 10px 2px pink;
+    text-align: left;
+}
+
+p {
+    text-indent: 1rem;
+}
+
+p.font1 {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+    max-width: 1800px;
+    text-indent: 1rem;
+}
+
+p.font2 {
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: lightcoral;
+    margin: 10px;
+    max-width: 1800px;
+    text-indent: 1rem;
+}
+
+p.fontcrazy{
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: 'Tomorrow', sans-serif;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .5em;
+    margin: 10px;
+    max-width: 1800px;
+    text-indent: 1rem;
+    font-size: 1rem;
+}
+
+s.crossout{
+    text-decoration: line-through;
+    color: red;
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: line-through;
+    color: red;
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}

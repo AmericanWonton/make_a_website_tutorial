@@ -1,0 +1,11 @@
+Hands on exercise instruction:
+
+1. Use generic serif font in an html document DONE
+2.Use generic san-serif font in html document. DONE
+3.Use font from Google Fonts that has 2 different font wieghts. DONE
+4. Using CSS, transform all of the text of a sentence to uppercase and italic DONE 
+5.Set spacing between characters in a shorrt phrase.
+6. Add shadow to the text in an H1 tag. DONE
+7. Remove the underline on an anchor tag
+8.Show the text that is no longer relevant by putting a line through it. DONE
+9. Indent the first line of a paragraph. DONE

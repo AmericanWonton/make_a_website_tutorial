@@ -1,0 +1,7 @@
+Text decoration is shorthand for a bunch of ways to decorate text.
+
+The <del> tag isn't really a good idea...if it's dumb, just delete it. otherwise, strike it through with text decoration.
+
+Text indent is the amount of indenting lines should have. By default, only the first line is indented.
+
+Max width allows the largest the page is allowed to scroll/shrink when you resize the browser.
