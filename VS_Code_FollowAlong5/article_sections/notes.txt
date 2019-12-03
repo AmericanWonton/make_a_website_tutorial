@@ -1,0 +1,9 @@
+Articles can stand on their own. They are independentley reuseable.
+Magazine article, for example, or a blog entry.
+It could be a user review or an OBJECT.
+An article can be nested within an article.
+They typically include a heading h1-h6
+
+Section is a thematic grouping of content.
+Typically includes a heading h1-h6.
+If something can stand on it's own, use an article. There's hella articles inside of a section, a lot.

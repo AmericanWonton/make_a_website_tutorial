@@ -1,0 +1,36 @@
+h1.maintitle {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 5rem;
+    color: pink;
+    text-align: center;
+    margin: 20px;
+    border: solid rebeccapurple 2px;
+}
+
+h1.subtitle {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: teal;
+    text-align: center;
+    margin: 5px;
+    border: solid pink solid;
+}
+
+p.description{
+    font-family: initial, sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    margin: 1px;
+    border: solid green solid;
+    text-indent: 1rem;
+}
+
+section{
+    margin: 15px;
+    border: solid red;
+}
+article {
+    margin: 10px;
+    border: dashed grey;
+}

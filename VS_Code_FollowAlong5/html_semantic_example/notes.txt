@@ -1,0 +1,8 @@
+Figure notes
+
+A Figure is a self-contained content, frequently with a caption,(<figcaption>)
+It's related to the main flow, but it's postion is independent of the flow; it could be moved to another page or apendix with 
+no issues.
+examples: image, illustration, diagram, code snipppet, etc.
+
+An Address tag supplies contact info for it's nearest <article> or <body> ancestor; it should apply to the whole document.

@@ -1,0 +1,21 @@
+Semantic elements we use a lot for structure...
+
+div and span are NOT semantic...they have their place, but we don't use them too often.They're just
+generic containers.
+
+Header is a group of navigational aids. Might contain heading elements or other elements like a logo.
+A header must NOT be  a descendant of header, footer, or address.
+
+Nav is a section with navigation links.
+The links may link to other pages or places within the same page.
+Not all links within a document must be in a nav element.
+Intended for major block of navigation links.
+Sometimes the footer has lists that DON'T need to be in a nav elements.
+It's common for the footer to have nav links, when appropriate.
+You can have more than one nav on a page.
+
+Main is the main content of the body of the documentation/application.
+It should be unique to the document. It excludes content that is repeated across a bunch of other
+documents,(sidebars, nav links, copyright info, etc.).
+Must NOT be a descendant of <article> <aside> <footer>, <header>, or <nav>
+Only ONE main can be used per document.

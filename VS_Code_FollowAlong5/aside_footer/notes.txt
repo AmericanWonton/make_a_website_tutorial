@@ -1,0 +1,8 @@
+Asides are content related to something.
+Examples: Sidebars, inserts, ads, biographies, etc.
+Asides are 'tangental' related to the main content, (they are usually put inside articles or sections).
+
+
+Footer are opposite of headers.
+They contain things such as : Nav links, copyright data, or links related to documents.
+Enclosed info about the autor in an address element that can be included in a footer element.
