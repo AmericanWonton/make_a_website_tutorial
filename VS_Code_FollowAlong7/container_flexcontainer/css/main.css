@@ -1,0 +1,23 @@
+div {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid blue
+}
+
+/*Here is how to make the below header element a container*/
+header {
+    display: flex;
+    border: 1px solid red;
+    /*Below is what is set by default
+    flex-direction: row;
+    flex-wrap: nowrap;
+    */
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
