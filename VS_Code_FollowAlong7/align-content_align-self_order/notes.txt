@@ -1,0 +1,3 @@
+align self will over ride align items! So you could make one item in the container DISOBEY the flex property.
+
+order can align an item by it's content,(an integer, for example)

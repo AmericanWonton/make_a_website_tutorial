@@ -1,0 +1,17 @@
+Flex wrap has 'wrap', 'no-wrap', and 'wrap reversed'.
+
+People usually only use wrap and no-wrap 
+
+The flex-direction is 'row' by default. You can also default it by 'column'.
+
+Flex-direction can be set to 'row', 'row-reverse', 'column reverse', and 'column'. Row is the default, you use it 99% of the time.
+
+Try changing the 'section' tag in css to the other flex-directions to see what happens.
+
+This is somewhat important to know what 'axis' your flex-direction is workin on.
+For instance, Flex-Direction Row = primary axis: horizontal and cross-axis: vertical 
+AND 
+Flex-Direction Column = primary axis: vertical cross-axis: horizontal
+
+
+In short, whatever primary axis is in flex-direction, that's your primary axis

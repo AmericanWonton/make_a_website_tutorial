@@ -1,0 +1,43 @@
+section.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+section.nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+section.wrapreverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+section.flexdirectrow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*flex items */
+div {
+    /* Formatting */
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+    border: 1px solid green;
+    padding: 20px;
+    color: red;
+    background-color: blue;
+}
+
+div.flexdirectrowdiv {
+    width: 3em;
+    height: 4em;
+    margin: 2em;
+    border: 3px solid black;
+    padding: 10px;
+    color: pink;
+    background-color: saddlebrown;
+}

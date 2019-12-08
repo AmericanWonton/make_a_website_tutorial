@@ -1,0 +1,41 @@
+section {
+    margin: 1em;
+    display: flex;
+}
+
+section.shrink {
+    margin: 1em;
+    display: flex;
+}
+
+
+
+/*flex items */
+div {
+    /* Formatting */
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+}
+
+div.flex1 {
+    flex-grow: 1;
+}
+
+div.flex2 {
+    flex-grow: 2;
+    /*width: 100%; */
+}
+
+div.shrink1div {
+    flex-shrink: 1;
+    
+}
+
+div.shrink2div {
+    flex-shrink: 2;
+}
+
+
+
+

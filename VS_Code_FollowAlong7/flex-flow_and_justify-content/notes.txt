@@ -1,0 +1,3 @@
+Flex-flow is usually a short hand way of doing flex-flow properties
+
+Justify content keeps content fixed upon the PRIMARY AXIS.

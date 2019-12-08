@@ -1,0 +1,5 @@
+Flex-basis is how you set the inital size of the item. It sets a width as a 'basis' for flex-grow and flex-shrink to shrink/grow within.
+
+Flex-basis: auto gets the width of the element and auto sizes the divs to that.
+
+There's also 'flex', which is shorthand for flex-grow, flex-shirnk, and flex-basis combined.

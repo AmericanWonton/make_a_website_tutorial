@@ -1,0 +1,76 @@
+section.flexend {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    /*formatting*/
+    height: 700px;
+    border: 5px solid red;
+}
+
+section.center {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /*formatting*/
+    height: 700px;
+    border: 5px solid pink;
+}
+
+section.stretch {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /*formatting
+    Don't set the height for this to work!*/
+    border: 5px solid greenyellow;
+}
+
+section.start {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /*formatting*/
+    height: 700px;
+    border: 5px solid purple;
+}
+
+section.end {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /*formatting*/
+    height: 700px;
+    border: 5px solid fuchsia;
+}
+
+section.center2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /*formatting*/
+    height: 700px;
+    border: 5px solid brown;
+}
+
+
+
+
+
+
+
+/*flex items */
+div {
+    /* Formatting */
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+    border: 1px solid green;
+    padding: 20px;
+    color: red;
+    background-color: blue;
+}
+
+

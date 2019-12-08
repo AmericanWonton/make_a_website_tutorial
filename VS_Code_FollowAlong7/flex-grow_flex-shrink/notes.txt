@@ -1,0 +1,10 @@
+For flex grow, as the content fills the container, it will grow accordingly for each item based on the size of the items.
+
+So basically, you are setting the proportion that items within the container will 'grow' with each other when re-sizing the page.
+
+uncomment flex-two 100percent width to see how much space that div takes up...
+The order does NOT matter in the HTML with those two properties.
+
+Flex shrink  defines the ability of the flex-item to shrink if neccessary
+
+Note in the example with shirnking, if the flex-container is less than 100px, the shrinking kicks in.
