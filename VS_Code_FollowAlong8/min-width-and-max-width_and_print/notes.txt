@@ -1,0 +1,14 @@
+Min width is the MINIMUM WIDTH that will start applying things to the page layout.
+(From this minimum point and upwards...)
+
+Max width is the MAXIMUM WIDTH downwards thtat things get applied to the page layout.
+(From this maximum point and downwards...)
+
+Viewport = the browser window, NOT THE SCREEN OF YOUR COMPUTER.
+
+Media query expressions go inside parenteheses
+
+You don't need to name the file with 'mq', that's this dude's method...make your own naming convention.
+
+If you want something to look good printing, you can make your own CSS Stylesheet and link it like so:
+<link rel="Stylesheet" href="mq-print.css" media="print">

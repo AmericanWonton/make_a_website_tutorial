@@ -1,0 +1,11 @@
+/*This here is a page reset*/
+nav, main, section, article, html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: pink;
+}

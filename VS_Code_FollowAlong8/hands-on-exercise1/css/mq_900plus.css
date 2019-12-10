@@ -1,0 +1,40 @@
+/*This here is a page reset*/
+nav, main, section, article, html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: green;
+}
+
+body {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    border: 10px solid fuchsia;
+}
+
+main {
+    border: .5em solid black;
+    margin: 1em;
+}
+
+section {
+    border: .4em solid gray;
+    padding:.4em;
+}
+
+article {
+    border: .7em dashed purple;
+    padding: .4em;
+}
+
+nav {
+    border: .2em dashed pink;
+    margin: .2em;
+    text-align: center;
+    height: 100px;
+}

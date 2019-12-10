@@ -1,0 +1,2 @@
+It's on some bullshit for explanation. Just try desigigning something that looks good on mobile and resises at say, beneath 599px,
+another setting between 600px and 899px, and then changes once you meet the 900px or more threshhold.

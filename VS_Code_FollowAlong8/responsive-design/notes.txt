@@ -1,0 +1,5 @@
+Responsive design is a webpage that resises based on different formats
+
+BUILD FOR MOBILE FIRST!
+
+You should have 70 to 80 characters of text on a screen.

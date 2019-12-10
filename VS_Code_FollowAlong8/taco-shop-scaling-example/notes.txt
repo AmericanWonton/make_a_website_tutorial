@@ -1,0 +1,2 @@
+In principle, you want to design for mobile first,(because you can scale upwards easier. It sucks ass scaling downward).
+

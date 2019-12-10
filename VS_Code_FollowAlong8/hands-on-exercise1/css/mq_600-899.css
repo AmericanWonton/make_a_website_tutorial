@@ -1,0 +1,43 @@
+/*This here is a page reset*/
+nav, main, section, article, html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*formatting*/
+    margin: 20px auto;
+    border: 4px solid rgba(255, 101, 69, 0.4);
+}
+
+main {
+    border: 2em solid pink;
+    margin: 1em;
+}
+
+section {
+    border: .4em solid blueviolet;
+    padding:.4em;
+}
+
+article {
+    display: inline-block;
+    border: .7em dashed green;
+    padding: .4em;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+nav {
+    border: .2em dashed pink;
+    margin: .2em;
+    text-align: center;
+    height: 100px;
+}
