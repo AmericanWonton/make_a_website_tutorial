@@ -1,0 +1,4 @@
+In order to keep this neat and organized when resizing, here's what we need to do:
+
+1. display: flex, flex-flow: row wrap;
+2. What you want on each row should add up to 100.

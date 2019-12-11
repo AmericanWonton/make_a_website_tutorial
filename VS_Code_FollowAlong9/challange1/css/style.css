@@ -1,0 +1,54 @@
+/* All this sheet is doing is giving those c1 classes a unique color for the divs */
+
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c1 {
+    width: 100%;
+    min-height: 200px;
+    background-image: url("D:\Documents\LearningHTTP_CSS\VSCode_FollowAlong\VS_Code_FollowAlong9\challange1\img\num1.jpg");
+}
+
+.c2 {
+    width: 100%;
+    min-height: 200px;
+    background-color: pink;
+    color: white;
+}
+
+.c3 {
+    width: 100%;
+    min-height: 200px;
+    background-color: purple;
+    color: white;
+}
+
+.c4 {
+    width: 100%;
+    min-height: 200px;
+    background-color: green;
+    color: white;
+}
+
+.c5 {
+    width: 100%;
+    min-height: 200px;
+    background-color: black;
+    color: white;
+}
+
+.c6 {
+    width: 100%;
+    min-height: 200px;
+    background-color: turquoise;
+    color: white;
+}
+
+.c7 {
+    width: 100%;
+    min-height: 200px;
+    background-color: gray;
+    color: white;
+}
+

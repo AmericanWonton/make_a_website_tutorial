@@ -1,0 +1,21 @@
+/* All this sheet is doing is giving those c1 classes a unique color for the divs */
+
+.c1 {
+    background-color: purple;
+}
+
+.c2 {
+    background-color: rebeccapurple;
+}
+
+.c3 {
+    background-color: green;
+}
+
+.c4 {
+    background-color: indianred;
+}
+
+.c5 {
+    background-color: teal;
+}

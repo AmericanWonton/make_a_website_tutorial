@@ -1,0 +1,7 @@
+In order to keep this neat and organized when resizing, here's what we need to do:
+
+1. display: flex, flex-flow: row wrap;
+2. What you want on each row should add up to 100.
+
+In this example, the only 'flex items' are ONE AND FOUR. Right? Becuase they are DIRECTLY UNDERNEATH THE BODY CONTAINER, WHICH
+HAS FLEX.

@@ -1,0 +1,12 @@
+Challange 1
+
+1. Create a page using Google's design pattern of setting flex container. Make 7 flex items in the container,
+with the names 001, 002, etc....
+
+2. Using the page previously, add two media queries. At each breakpoint, change your layout by setting up how much width is 
+being taken up by each item.
+
+3. Now, change the order of items being displayed each time it is resized.
+
+4. Give each flex item a background image and make sure it covers the space taken up by the item.
+
