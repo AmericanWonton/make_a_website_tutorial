@@ -1,0 +1,4 @@
+This is in relationship to the NEXT element which ALSO has the position set.
+
+  An absolute element is removed from the normal flow of the DOM. It is calculated from the NEXT ELEMENT
+    up the DOM, which has a position property, or the HTML, if no previous DOM has a position property. 

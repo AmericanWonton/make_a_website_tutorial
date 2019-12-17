@@ -1,0 +1,7 @@
+This is an exercise.
+
+First, use a reset, then put the footer at the bottom with position fixed.
+
+Do another part with position relative.
+
+Do another one with position absolute.

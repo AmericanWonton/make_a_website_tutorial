@@ -1,0 +1,34 @@
+html {
+    border: 2px solid red;
+}
+
+body {
+    width: 40%;
+    border: 2px solid green;
+}
+
+div {
+   border: 2px solid purple;
+   color:#fff;
+}
+
+
+#one {
+    /*If you don't put anything down here, it might as well just be static! */
+    position: relative;
+    width: 600px;
+    height: 400px;
+    /* formattting */
+    background-color: green;
+}
+
+#two {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    /* formatting*/
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+}
+

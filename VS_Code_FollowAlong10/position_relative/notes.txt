@@ -1,0 +1,3 @@
+Position relative is 'relative' to ITSELF.
+You move a thing from where it was, based on that, it moves.
+The space that that element previously 'blocked out' should still be there.

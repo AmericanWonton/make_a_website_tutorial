@@ -1,0 +1,8 @@
+Position fixed is good for scrolling and shit....you ever see a site with a 
+aside bar that 'follows' you? That's what it's good for, being 'fixed' within a 
+relative postion.
+
+A fixed position element is postioned relative to the viewport or the browser window itself. 
+
+The viewport dosen't change when the window is scrolled, so a fixed positioned element will stay right where it is 
+when the page is scrolled. (css-tricks)
