@@ -1,0 +1,6 @@
+ footer, header, div, nav, article, aside {
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    border: 3px solid black;
+}

@@ -1,0 +1,6 @@
+Here's the 'above the fold' method. It means, what 'appears' to the person at first glance.
+When someone comes to the homepage, this is what they see at first glance.
+
+Remember, by default, flex-direction is row and centered, if not specified!
+
+Also, we made the body have a height of 100 so it takes up the ENTIRE vertical screen

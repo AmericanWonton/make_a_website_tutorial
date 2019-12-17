@@ -1,0 +1,33 @@
+header {
+    margin: 20px;
+}
+
+div {
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+}
+
+article {
+    order: 1;
+    width: 100%;
+}
+
+aside {
+    order: 2;
+    width: 50%;
+}
+
+nav {
+    order: 3;
+    width: 50%;
+}

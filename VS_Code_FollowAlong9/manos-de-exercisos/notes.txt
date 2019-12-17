@@ -1,0 +1,6 @@
+Here's some shit for you to do: Create a header with that bad ass menu up top...only now,
+justify it to the left instead of the right.
+
+Then, create that, "above fold" shit just beneath that.
+
+Then, create that sub menu again that you did earlier, have it resize like earlier.
