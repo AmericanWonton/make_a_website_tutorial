@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20vh;
+    /* formatting */
+    height: 100vh;
+    border: 1px solid pink;
+    background-image: url("https://www.sciencemag.org/sites/default/files/styles/inline__699w__no_aspect/public/dogs_1280p_0.jpg?itok=_Ch9dkfK");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* background-attatchment: fixed*/
+    
+}
+
+h1 {
+    font-size: 10rem;
+    text-align: center;
+    color: green;
+    text-shadow: 3px solid black;
+}

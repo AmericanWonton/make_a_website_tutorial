@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://www.sciencemag.org/sites/default/files/styles/inline__699w__no_aspect/public/dogs_1280p_0.jpg?itok=_Ch9dkfK");
+    background-repeat: repeat;
+    /* background-repeat: no-repeat; */
+    background-size: 200px;
+    /* background-size: contain */
+    /* backgorund-size: cover */
+}
+
+/*
+
+repeat:
+tile the image in both directions. This is the default value.
+
+repeat-x:
+tile the image horizontally
+
+repeat y:
+tile the image vertically
+
+no-repeat:
+don't tile, just show the image once
+
+
+*/

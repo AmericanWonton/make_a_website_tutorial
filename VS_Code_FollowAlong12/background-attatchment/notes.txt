@@ -1,0 +1,4 @@
+background-image: scroll --- This actually scrolls with the element.
+background-image: fixed ---- This stays in place on the viewport (element leaves it behind with scroll)
+
+

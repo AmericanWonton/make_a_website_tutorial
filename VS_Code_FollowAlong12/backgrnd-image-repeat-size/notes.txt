@@ -1,0 +1,2 @@
+Control how an image is repeating.
+Background size is a css property which refrers to the background IMAGE, not the actual background of the element.

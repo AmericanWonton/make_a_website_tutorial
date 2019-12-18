@@ -1,0 +1,5 @@
+Shouldn't really be using background shorthand... it kind of sucks.
+It can overwrite previously set values.
+Some properties don't even share the same values!
+
+You need to be clear, rather than clever, like goddamn...

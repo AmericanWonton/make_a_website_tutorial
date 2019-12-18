@@ -1,0 +1,26 @@
+/*Here is our reset for these elements */
+body, html, div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* We got this in there to have the screen be taken up entirely vertical. */
+    height: 100vh;
+    /* formatting */
+    border: 10px solid green;
+}
+
+p {
+    font-size: 4em;
+}
+
+li {
+    list-style: square;
+    background-color: white;
+}

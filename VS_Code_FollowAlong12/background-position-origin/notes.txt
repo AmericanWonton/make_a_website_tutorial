@@ -1,0 +1,2 @@
+Background origin lets you move an elelment,(position it) around. The background origin property dictates
+where that picture starts and ends.
