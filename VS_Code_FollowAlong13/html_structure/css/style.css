@@ -1,0 +1,34 @@
+ul {
+    list-style-type: none;
+    list-style: none;
+    background: deepskyblue;
+    background-color: deepskyblue;
+}
+
+li {
+    list-style-type: none;
+    list-style: none;
+    background-color: deepskyblue;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid red;
+}
+
+a:hover{
+    background: royalblue;
+}
+
+/*This is so we don't have a border showing at the bottom. */
+a:last-child{
+    border-bottom: none;
+}
+
+a:first-child {
+    border-top: none;
+}

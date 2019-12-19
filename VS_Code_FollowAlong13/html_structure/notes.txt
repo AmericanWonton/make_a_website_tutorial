@@ -1,0 +1,4 @@
+If you want to have better space, you can 'clear' other elements that are floating beside each other.
+
+
+Yeah, float sucks dick, I don't know why I'm learning this. I'm bout to say fuck it.

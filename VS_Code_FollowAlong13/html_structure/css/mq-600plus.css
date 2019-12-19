@@ -1,0 +1,66 @@
+/*Here is our reset for these elements */
+html, body, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+html {
+    /* This is to get our fonts in here */
+    font-family: 'Kotta One', 'Cantarell', serif, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+a {
+    display: block;
+    margin: 5px;
+}
+
+div.main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* We got this in there to have the screen be taken up entirely vertical. */
+    height: 100vh;
+    /* formatting */
+    border: 10px solid green;
+    /* Here's our image */
+    background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+
+h1.responsiveh1 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Kotta One', sans-serif;
+    text-align: center;
+}
+
+h2.responsiveh2 {
+    font-size: 1em;
+    color: white;
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+}
+
+h3.responsiveh3 {
+    font-size: 1em;
+    color: white;
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+}
