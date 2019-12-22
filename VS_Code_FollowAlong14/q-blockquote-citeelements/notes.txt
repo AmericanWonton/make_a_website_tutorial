@@ -1,0 +1,4 @@
+q is for short quotations
+blockquote is for long quotations
+cite element is for citing creative work
+cite attribute is for giving a citation for your quote. It's only for the source engine/code. Good to include

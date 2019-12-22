@@ -1,0 +1,18 @@
+Website makers make a lot of elements which do the same shit.
+
+<pre> tag is for preformatted text, exactly as it's laid out in the file. However it's laid out in html, that's how it goes in
+the preview for HTML.
+
+<samp>  is intended to sample output from a computer program.
+
+<code> is a fragment of computer code.
+
+<cbd> represents user input and makes an inline element displayed in the browser's default monospace font.
+
+Careful! Some of these elements can be nested within each other and some cannot. Just read the documentation
+if things get 'fuck-ey'.
+
+abbr tag is for telling your user what some text is when you hover over it...they generally should be kept short.
+
+<table> tag isn't really used anymore, but you can make tables with it.
+<tr> is a table row. <th> is a table header.

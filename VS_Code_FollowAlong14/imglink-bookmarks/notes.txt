@@ -1,0 +1,5 @@
+Bookmarking is clicking a spot on the webpage, (a link), and it takes you to another section of the webpage.
+
+box shadow is a lot like text shadow...but with boxes. 
+
+Vertical align aligns vertically, duh.

@@ -1,0 +1,18 @@
+The general rule of web development is...ALWAYS INCLUDE THE META VIEWPORT TAG!...but there's more to it than that.
+
+History of mobile devices and displaying shit:
+Originally, web pages were just jammed down to the viewport...ugly af...you'd have to pinch and zoom.
+Then, they started making the font size larger...font boosting.
+
+To get a phone device display in developer mode of google...
+Just click the little phone icon.
+
+You can enable or disable font boosting at will, (see the paragraph element in this file.)
+It all just depends on your preference...sometimes font boosting looks good! Other times, you'll want
+it disabled.
+
+
+This shit matches the width of the viewport with the width of the device! 
+<meta name="viewport" content="width=device-width, intitial-scale=1">
+
+Intial scale means how are we mapping our css pixels to our 'device independent' pixels?
