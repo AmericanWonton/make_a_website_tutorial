@@ -1,4 +1,8 @@
-If you want to have better space, you can 'clear' other elements that are floating beside each other.
+HTML entitys are ways to have symbols like '>' or '<' in your code without 
+HTML getting confused.
 
+DONT USE THE BUTTON ELEMENT FOR FORMS! USE INPUT TO CREATE VALUES IN AN HTML FORM YOU DUMB FUCK.
 
-Yeah, float sucks dick, I don't know why I'm learning this. I'm bout to say fuck it.
+<!--This is to make your shit look good on phones!!-->
+<meta name="viewport" content="width=device-width, intitial-scale=1">
+It has to do with physical devices and pixels and shit.

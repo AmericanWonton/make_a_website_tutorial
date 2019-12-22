@@ -27,7 +27,7 @@ a {
     margin: 5px;
 }
 
-div.main {
+div.themain {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -37,10 +37,16 @@ div.main {
     /* formatting */
     border: 10px solid green;
     /* Here's our image */
+    background-color: darkgrey;
     background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg");
     background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.main {
+    
 }
 
 
@@ -63,4 +69,17 @@ h3.responsiveh3 {
     color: white;
     font-family: 'Cantarell', sans-serif;
     text-align: center;
+}
+
+button.getstarted {
+    /* Turn  the cursor into a pointing finger */
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(202,250,204);
+    font-size: 1em;
+    font-weight: 700;
+    border: 1px solid rgb(202,250,204);
+    /* The below setting makes the padding for the width more than the height. */
+    padding: 2rem 1rem;
+    border-radius: 3%;
 }

@@ -1,9 +1,12 @@
 /*Here is our reset for these elements */
-html, body, ul, li, a {
+html, body, ul, li, a, button {
     padding: 0;
     border: 0;
     margin: 0;
+    /*This is for the button fix. It inherets the color value of the parent. */
+    color: inherit;
 }
+
 
 html {
     /* This is to get our fonts in here */
@@ -24,22 +27,29 @@ ul {
 
 a {
     display: block;
-    margin: 5px;
+    margin: 1px;
 }
 
-div.main {
+div.themain {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     /* We got this in there to have the screen be taken up entirely vertical. */
-    height: 100vh;
+    height: 75vh;
     /* formatting */
-    border: 10px solid green;
+    border: 5px solid green;
     /* Here's our image */
+    background-color: darkgrey;
     background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg");
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+section.main {
+    
 }
 
 h1.responsiveh1 {
@@ -61,4 +71,17 @@ h3.responsiveh3 {
     color: white;
     font-family: 'Cantarell', sans-serif;
     text-align: center;
+}
+
+button.getstarted {
+    /* Turn  the cursor into a pointing finger */
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(202,250,204);
+    font-size: 1em;
+    font-weight: 700;
+    border: 1px solid rgb(202,250,204);
+    /* The below setting makes the padding for the width more than the height. */
+    padding: 2rem 1rem;
+    border-radius: 3%;
 }
