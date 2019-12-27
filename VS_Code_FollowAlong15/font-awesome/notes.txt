@@ -1,0 +1,9 @@
+font awesome .com has some cool fonts and logos and stuff to add to your html
+
+We can do some shit performance wise...because otherwise, we're just downloading the entire website of
+fontawseome.
+Bruh, you can just watch this shit again, on god, dunno if you need to use this...
+
+TBH, you can just get/make an image and export as an SVG, then include it in your project directory. 
+Ya got JQuery and all this shit that is too many bytes...but you should just stick to SVG.
+This dude has instructions for doing shit through Illustrator...BUT FUCK ADOBE PAY SCAM SHIT, BRUH.
