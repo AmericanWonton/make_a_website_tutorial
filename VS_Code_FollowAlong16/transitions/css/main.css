@@ -1,0 +1,74 @@
+div {
+    width: 100px;
+    height: 100px;
+    /* center text in div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: blue;
+    border: 4px solid black;
+    font-size: .5rem;
+    color: yellow;
+}
+
+/* Here are some transition examples */
+div:hover {
+    color: blue;
+    background-color: yellowgreen;
+}
+
+.trans {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+
+    /*VARIATION*/
+     transition-property: background-color;
+     transition-duration: 500ms;
+     transition-timing-function: ease-in-out; 
+     transition-delay: 3s;
+}
+
+/* Here are some animation examples */
+.animation {
+    animation-name: change-color-and-move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* This is to change direction. You can also set it in 'reverse'. */
+    animation-direction: alternate;
+    /* This is mostly for a smoother flow */
+    animation-timing-function: linear;
+
+    /* This is for making this move and 'animate motion ' */
+    position: relative;
+    left: 0;
+}
+
+@keyframes change-color-and-move{
+    0% { color: red; background-color: white; left: 0; width: 100px; height: 100px;}
+    50% { color: green; } 
+    100% { color: pink; background-color: tomato; left: 80%; width: 300px; height: 300px;}
+}
+
+/* Here are some transform examples */
+.transform {
+    /* formatting */
+    width: 100px;
+    height: 100px;
+    /* for the animations */
+    animation-name: dogspinner;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* This is to change direction. You can also set it in 'reverse'. */
+    animation-direction: alternate;
+    /* This is mostly for a smoother flow */
+    animation-timing-function: linear;
+    /* Here is our new transform stuff */
+    transform: rotate(180deg);
+}
+
+@keyframes dogspinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(180deg); }
+}

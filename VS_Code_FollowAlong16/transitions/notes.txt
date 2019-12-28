@@ -1,0 +1,8 @@
+Transitions and animations are usually pretty straightforward...usually.
+
+Go to mdn to look at what all those element values do and shit....
+
+Same thing with animations...
+ You should also google 'MDN' transform to move elements in the around the screen...like rotate
+ and transform.
+
