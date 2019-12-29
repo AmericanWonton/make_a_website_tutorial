@@ -1,0 +1,6 @@
+We're doing a bunch of shit here...first up, a side bar fly out
+We're tyring to make some client side 'css-functionality' instead of javascript code to have the sidebar
+fly out....
+WARNING, I COUDLN'T GET THIS SHIT TO WORK ON MY EXAMPLE...MAYBE GET THIS DUDE'S FILE?
+
+

@@ -1,0 +1,11 @@
+#gradient {
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(hotpink, green, deepskyblue);
+}
+
+#bettergradient {
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(darkgreen, green, lightgreen);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tu Eres un Hero</title>
+        <!--This is to make your shit look good on phones!!-->
+        <meta name="viewport" content="width=device-width, intitial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <!--Here's how to put in audio. WARNING, this dude is using javascript and isn't using seperation of concerns.
+        It's the 'quick and dirty way.-->
+        <!--
+
+            <audio controls>
+            <source src="audio/Remstien_music.mp3" type="audio/mp3">
+            </audio>
+            <div>
+                <button onclick="document.querySelector('#demo').play()">Play the audio</button>
+                <button onclick="document.querySelector('#demo').pause()">Pause the audio</button>
+                <button onclick="document.querySelector('#demo').volume+=0.1()">Increase the audio</button>
+                <button onclick="document.querySelector('#demo').volume-=0.1()">Decrease Volume</button>
+            </div>
+
+        -->
+        
+
+        <!--Here's another way of doing that above with javascript-->
+        <audio id="demo" src ="audio/Remstien_music.mp3" loop></audio>
+        <h1></h1>
+        <div>
+            <button id="play">Play the Audio</button>
+            <button id="pause">Pause the Audio</button>
+            <button id="vup">Increase the Audio</button>
+            <button id="vdown">Decrease the Audio</button>
+        </div>
+
+        <script>
+            var song = document.querySelector('audio');
+            var readout = document.querySelector('h1');
+            var play = document.querySelector('#play');
+            var pause = document.querySelector('#pause');
+            var vup = document.querySelector('#vup');
+            var vdown = document.querySelector('#vdown');
+
+            console.log(song.volume);
+            readout.textContent = song.volume;
+
+            play.addEventListener('click', function(){
+                song.play();
+            });
+
+            pause.addEventListener('click', function(){
+                song.pause();
+            });
+
+            vup.addEventListener('click', function(){
+                if (song.volume < 1){
+                    song.volume += 0.1;
+                    console.log(song.volume);
+                    readout.textContent = song.volume.toFixed(1);
+                }
+            });
+
+            vdown.addEventListener('click', function(){
+                if (song.volume >= 0.1){
+                    song.volume-=0.1;
+                    console.log(song.volume);
+                    readout.textContent = song.volume.toFixed(1);
+                }
+            });
+        </script>
+
+        <br><br><br>
+        <!--Here's how to put video on a page-->
+        <video controls>
+            <source id="s3" src="video/video_uhhh.mp4" type="video/mp4">
+                <!--If you have different formats, you can put them in here and html will try
+                to play them all in the order you put them.-->
+            <!--Example:
+            <source id="s1" src="video/video_uhh.mp4" type="video/ogv">-->
+        </video>
+
+        <br><br><br>
+
+        <!--You can also have a poster to click on for the video...-->
+        <video controls poster="img/anime.jpg">
+            <source id="s1v2" src="video/video_uhhh.mp4" type="video/mp4">
+        </video>
+
+
+        <br><br><br>
+        <!--Here's another one, looping infitley...-->
+        <video autoplay loop muted>
+            <source id="s1v3" src="video/video_uhhh.mp4" type="video/mp4">
+        </video>
+    </body>                    
+</html>
