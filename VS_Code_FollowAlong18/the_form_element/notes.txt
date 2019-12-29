@@ -1,0 +1,9 @@
+Routes and methods are important to learn about with servers...if the method was get, the logic
+would be totally different. It's like if you're telling a person 'catch!', when you actually
+want them to recite the alphabet backwards.
+
+IETF...these guys promote internet standards and how the web SHOULD WORK...but some
+people don't comply and shit breaks, obviously.
+
+TCP = Transmission Control Protocall...it sends text back and forth, in a certain format,
+(that's the http format in our index.html).

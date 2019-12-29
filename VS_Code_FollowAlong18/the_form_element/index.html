@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+        <!--This is to make your shit look good on phones!!-->
+        <meta name="viewport" content="width=device-width, intitial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <form action="/apply" method="post">
+
+            <!--When submitting with 'post', the method is sent through the body.-->
+            <!--We can also make the method 'get'; that will send the info through the URL-->
+            
+            <!--Here's the input element, for putting in text.It's got an attribute 'type' which can be a 
+            BUNCH OF THINGS,(you can just google a lot of them).-->
+            <!--'id' is for targetting with js or css. 'name' is the variable stored to the server
+            when the user enters a value.-->
+            <!--The label tag is for nameing form variables, yeehaw.-->
+            <label for="input1">First Name, bruh:</label>
+            <input type="text" id="input1" name="input_name1" title="this is a text toolbox"
+            placeholder="first name please" autofocus autocomplete="off">
+        </form>
+
+        <br><br><br>
+
+        <form action="/apply" method="post">
+            <!--This is a textarea,(which has a BUNCH of other tags assossiated with it)-->
+            <div id="thedivofFname">
+                <label for="firstname1">First Name</label>
+                <input type="text" id="firstname" name="myName1st" required>
+            </div>
+
+            <div id="thedivofUesay">
+                <label for="uessay">Essay:</label>
+                <textarea id="uessay" name="essay" rows="10">
+
+                </textarea>
+                <!-- You could include cols="30" -->
+            </div>
+
+            <div id="divoselect">
+                <label for="dia">Choose Day</label>
+                <select id="dia" name="day">
+                    <option value="Friday" selected>Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+            </div>
+
+            <div id="frmsubmit">
+                <input type="submit" name="submit" id="submit">
+            </div>
+        </form>
+ 
+        <br><br><br>
+        <!--Here's a fieldset and legend example-->
+        <form action="/" method="post">
+            <fieldset>
+                <legend>Der Namen</legend>
+                <label for="nameofirst">FirstName:</label>
+                <input type="text" name="nameofthefirst" id="fyurstname" required>
+
+                <label for="nameolast">Last Name</label>
+                <input type="text" name="nameofthelast" id="larstnarme" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Home Address</legend>
+                <label for="address">Address:</label>
+                <input type="text" name="place" id="placeplace">
+            </fieldset>
+
+            <fieldset id="frmsubmit">
+                <input type="submit" name="finalsubmit" id="mrsubmit">
+            </fieldset>
+        </form>
+    </body>                    
+</html>
